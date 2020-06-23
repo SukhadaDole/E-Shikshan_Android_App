@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homeblk"
+            android:title="@string/menu_home" />
+        <item
+
+            android:id="@+id/nav_Subjects"
+            android:icon="@drawable/subjects"
+            android:title="Semesters" />
+
+        <item
+
+            android:id="@+id/nav_download"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Learn New !!" />
+
+
+        <item
+            android:id="@+id/nav_query"
+            android:icon="@drawable/query"
+            android:title="Query Blog" />
+    </group>
+
+
+    <item android:title="More Options">
+        <menu>
+            <item
+                android:id="@+id/nav_shareus"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share Us" />
+            <item
+                android:id="@+id/nav_changepass"
+                android:icon="@drawable/pass"
+                android:title="Change Password" />
+
+            <item
+                android:id="@+id/nav_rateus"
+                android:title="Rate Us"
+                android:icon="@drawable/rating"/>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="LogOut" />
+
+
+        </menu>
+    </item>
+
+</menu>

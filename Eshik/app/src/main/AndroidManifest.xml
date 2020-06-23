@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.eshik">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/and1"
+        android:label="E-Shikshan"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".SecondActivity"></activity>
+        <activity android:name=".Linkplay" />
+        <activity android:name=".Rateus" />
+        <activity android:name=".upload" />
+        <activity android:name=".Syllabus" />
+        <activity android:name=".viewFiles" />
+        <activity android:name=".PostDetails" />
+        <activity android:name=".Auth" />
+        <activity
+            android:name=".nav"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Notify" />
+        <activity
+            android:name=".NewPassword"
+            android:parentActivityName=".ChangePassword" />
+        <activity
+            android:name=".Splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChangePassword"
+            android:parentActivityName=".UserActivity" />
+        <activity
+            android:name=".scroll"
+            android:label="@string/title_activity_scroll"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:parentActivityName=".UserActivity" />
+        <activity
+            android:name=".Password"
+            android:parentActivityName=".navigate"
+            tools:ignore="DuplicateActivity" />
+        <activity android:name=".Activity0" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserActivity"
+            android:parentActivityName=".scroll">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".navigate"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".MessageService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

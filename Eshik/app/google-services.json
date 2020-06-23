@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "508515521514",
+    "firebase_url": "https://eshik-433a9.firebaseio.com",
+    "project_id": "eshik-433a9",
+    "storage_bucket": "eshik-433a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508515521514:android:637ce3255b178b532c1893",
+        "android_client_info": {
+          "package_name": "com.example.abc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508515521514-5p8ean9crhci0boijkfeol7pgvll8k0t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abc",
+            "certificate_hash": "74bcfdacfc7d51beb3c1120f7199edb9b859f23e"
+          }
+        },
+        {
+          "client_id": "508515521514-ql0287e79grbk70gvgq0a0vqhn66ptnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA88vVrhEcKOy1wBBfgBPhieawNCTfNseI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508515521514-ql0287e79grbk70gvgq0a0vqhn66ptnm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508515521514:android:9d58703a2fe4d9d02c1893",
+        "android_client_info": {
+          "package_name": "com.example.eshik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508515521514-urd4rs835aff9d4l14t3d078ma2of6j4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eshik",
+            "certificate_hash": "7137967159c849e2e7ba463a53b17c8797b62078"
+          }
+        },
+        {
+          "client_id": "508515521514-ce7mgv504nt878m1ciq34n4tu1avce9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eshik",
+            "certificate_hash": "74bcfdacfc7d51beb3c1120f7199edb9b859f23e"
+          }
+        },
+        {
+          "client_id": "508515521514-ql0287e79grbk70gvgq0a0vqhn66ptnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA88vVrhEcKOy1wBBfgBPhieawNCTfNseI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508515521514-ql0287e79grbk70gvgq0a0vqhn66ptnm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
